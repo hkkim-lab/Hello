@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(getApplicationContext(), "버튼이 눌렸어요", Toast.LENGTH_LONG).show();
     }
 
-    fun onButton2Click(v : View) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"))
-        startActivity(intent)
-    }
+//    fun onButton2Click(v : View) {
+//        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"))
+//        startActivity(intent)
+//    }
 }
